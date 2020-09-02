@@ -1,9 +1,12 @@
 import pyttsx3
 engine = pyttsx3.init()
-for i in range(1000000): 
-    text =input('Write Text Here: ')
+engine.say('welcome to ur half project that is " text to speech converter" it is soon going to be compleat')
+engine.runAndWait()
+while True: 
+    text =input('Your Text: ')
     if(text=='exit'):
         exit()
     else:
         engine.say(text)
         engine.runAndWait()
+
