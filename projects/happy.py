@@ -1,6 +1,6 @@
 import pyttsx3
 engine = pyttsx3.init()
-engine.say('welcome to ur half project that is " text to speech converter" it is soon going to be compleat')
+engine.say('welcome  amitiush')
 engine.runAndWait()
 while True: 
     text =input('Your Text: ')
